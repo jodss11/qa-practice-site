@@ -29,6 +29,7 @@ export default function Home() {
             <div style={{ marginBottom: "6px", fontWeight: 500 }}>Username</div>
             <input
               type="text"
+              data-testid="login-username-input"
               style={{
                 width: "100%",
                 padding: "10px 12px",
@@ -42,6 +43,7 @@ export default function Home() {
             <div style={{ marginBottom: "6px", fontWeight: 500 }}>Password</div>
             <input
               type="password"
+              data-testid="login-password-input"
               style={{
                 width: "100%",
                 padding: "10px 12px",
@@ -53,6 +55,7 @@ export default function Home() {
 
           <button
             type="button"
+            data-testid="login-submit-button"
             style={{
               padding: "10px 16px",
               border: "none",
